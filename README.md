@@ -1,8 +1,8 @@
 # Mechanical Clamping Fixture
 
-A 3D mechanical CAD project featuring the design and assembly of a multi-component mechanical clamping fixture developed using **SOLIDWORKS**.
+A 3D mechanical CAD project featuring the design, assembly, and engineering documentation of a multi-component mechanical clamping fixture developed using **SOLIDWORKS**.
 
-The project combines a base structure, body, handle-operated clamping mechanism, studs, bolts, set screws, spring, ball, and other fastening components into a complete mechanical assembly.
+The project combines a base structure, body, handle-operated mechanism, studs, bolts, set screws, spring, ball, and other fastening components into a complete mechanical assembly.
 
 ---
 
@@ -33,32 +33,55 @@ In addition to the 3D assembly, the project includes a SOLIDWORKS engineering dr
 
 ---
 
-## Mechanical Design
+## CAD Model & Assembly
 
-The fixture consists of multiple mechanical components assembled around a central clamping mechanism.
+### Complete Fixture Assembly
 
-The handle provides the main manual interface of the mechanism, while the body, plates, studs, bolts, spring, and supporting components form the complete fixture structure.
+![Mechanical Clamping Fixture Assembly](assets/clamping_fixture_assembly.png)
+
+The complete SOLIDWORKS assembly integrates the structural plates, main body, handle, clamping components, studs, bolts, set screws, spring, ball, and supporting hardware into a multi-component mechanical fixture.
+
+The assembly demonstrates the integration and positioning of individually modeled mechanical parts within a complete CAD system.
 
 ---
 
 ## Engineering Drawing
 
-A dedicated SOLIDWORKS drawing was created for the project.
+![Mechanical Clamping Fixture Engineering Drawing](assets/clamping_fixture_engineering_drawing.png)
 
-The drawing includes multiple views of the mechanical fixture, including orthographic and isometric representations, providing additional engineering documentation beyond the 3D assembly model.
+A dedicated SOLIDWORKS engineering drawing was created to document the completed assembly.
+
+The drawing contains multiple orthographic views together with an isometric representation, providing a clear engineering representation of the fixture from different orientations.
+
+---
+
+## Mechanical Design Features
+
+The project demonstrates several mechanical CAD concepts:
+
+- Multi-component mechanical assembly
+- Handle-operated mechanism
+- Spring and ball integration
+- Stud and bolt fastening
+- Set screw integration
+- Structural plate design
+- Assembly mating and component positioning
+- Standard mechanical hardware integration
+- Engineering drawing documentation
 
 ---
 
 ## CAD Workflow
 
-The project was developed using the following mechanical CAD workflow:
+The project was developed using a component-based mechanical CAD workflow:
 
 1. Individual fixture components were modeled as separate SOLIDWORKS parts.
 2. The base plate and main structural components were created.
 3. The handle, clamping components, spring, ball, studs, and fasteners were integrated.
 4. Assembly mates were used to position and constrain the components.
 5. The complete mechanical fixture was assembled and reviewed.
-6. An engineering drawing was created using multiple assembly views.
+6. A dedicated engineering drawing was created from the completed assembly.
+7. Multiple drawing views were used to document the final mechanical design.
 
 ---
 
@@ -73,8 +96,8 @@ mechanical-clamping-fixture-solidworks/
 │
 ├── solidworks-files/
 │   ├── SOLIDWORKS part files (.SLDPRT)
-│   ├── SOLIDWORKS assembly file (.SLDASM)
-│   └── SOLIDWORKS drawing file (.SLDDRW)
+│   ├── assem.SLDASM
+│   └── drawing.SLDDRW
 │
 └── README.md
 ```
@@ -85,15 +108,15 @@ mechanical-clamping-fixture-solidworks/
 
 The repository includes the original editable SOLIDWORKS project files.
 
-The `solidworks-files/` directory contains the individual part models, final assembly, and engineering drawing used in the project.
+The `solidworks-files/` directory contains the individual part models, complete assembly, and engineering drawing used throughout the project.
 
-File types include:
+### File Types
 
 - `.SLDPRT` — SOLIDWORKS Part files
-- `.SLDASM` — SOLIDWORKS Assembly files
-- `.SLDDRW` — SOLIDWORKS Drawing files
+- `.SLDASM` — SOLIDWORKS Assembly file
+- `.SLDDRW` — SOLIDWORKS Drawing file
 
-These files can be opened in SOLIDWORKS for inspection, modification, assembly review, or further development.
+The source files can be opened in SOLIDWORKS for inspection, modification, assembly review, or further development.
 
 ---
 
@@ -127,4 +150,4 @@ These files can be opened in SOLIDWORKS for inspection, modification, assembly r
 
 This project demonstrates a complete mechanical CAD workflow covering individual part modeling, multi-component assembly, and engineering drawing documentation.
 
-The combination of editable part files, the final assembly, and a dedicated engineering drawing provides a more complete representation of the mechanical design process.
+The combination of editable component files, the final assembly, and a dedicated engineering drawing provides a complete representation of the mechanical CAD design process.
